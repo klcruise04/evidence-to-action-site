@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Evidence to Action</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header class="hero">
+        <h1>Evidence to Action</h1>
+        <p class="tagline">Find evidence-backed strategies and real-world examples to improve healthcare outcomes</p>
+      </header>
+      
+
+  <main>
+    <section id="search-section">
+      <form action="search.html" method="get">
+        <input type="text" id="search-bar" name="query" placeholder="What do you want to improve?">
+        <button type="submit">Search</button>
+      </form>
+      
+        
+    </section>
+
+    <section id="suggested-topics">
+      <h2>Suggested Topics</h2>
+      <div class="topics-grid">
+        <a class="topic-card" href="topic.html?topic=access">Access Expansion</a>
+        <a class="topic-card" href="topic.html?topic=quality">Quality of Care</a> 
+        <a class="topic-card" href="topic.html?topic=readmissions">Hospital Readmissions</a>    
+        <a class="topic-card" href="topic.html?topic=mortality">Mortality Rates</a> 
+        <a class="topic-card" href="topic.html?topic=costs">Healthcare Costs</a>  
+        <a class="topic-card" href="topic.html?topic=fragment">Fragmented Care and Care Integration</a>
+        <a class="topic-card" href="topic.html?topic=overprescribing">Overprescribing and Medication Safety</a>  
+        <a class="topic-card" href="topic.html?topic=chronic">Chronic Care</a>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
+      </div>
+    </section>
+
+    <hr style="border: none; height: 2px; background: #0B3954; opacity: 0.2; margin: 2rem 0;">
+
+    
+    <section id="whats-new" style="text-align: center; padding: 3rem 1rem;">
+      <h2 style="font-size: 2.5rem; margin-bottom: .5rem;">What's New?: AI in Healthcare</h2>
+      <p style="font-size: 1.2rem; max-width: 800px; margin: 0 auto 2rem;">
+    How Mayo Clinic, Cleveland Clinic, and Johns Hopkins are Using AI to Reduce Admissions and Manage Chronic Care
+    </p>
+
+  <a href="https://www.netguru.com/blog/ai-in-telehealth" 
+     style="display: block; font-size: 1.5rem; font-weight: 600; color: #1a3c40; text-decoration: none; margin-bottom: 2rem;">
+     📰 AI in Telehealth: Results from Top Hospitals in 2025
+    </h2>
+
+  </a>
+
+  <a href="https://consultqd.clevelandclinic.org/cleveland-clinics-virtual-emergency-medicine-program-treating-the-right-patients-in-the-right-place" 
+     style="display: block; font-size: 1.5rem; font-weight: 600; color: #1a3c40; text-decoration: none; margin-bottom: 2rem;">
+     📰 Cleveland Clinic’s Virtual Emergency Medicine Program: Treating the Right Patients in the Right Place
+  </a>
+
+
+</section>
+  </main>
+
+  <footer style="text-align: center; margin-top: 3rem; padding: 1rem 0; font-size: 0.85rem; color: #ccc;">
+    Built by Kelly Cruise | © 2025 Evidence to Action
+  </footer>
+  
+  
+  <script>
+    function handleSearch() {
+      const input = document.getElementById("search-bar").value.toLowerCase();
+      if (input.includes("recovery")) {
+        window.location.href = "topic.html";
+      } else {
+        alert("Topic page not yet created.");
+      }
+    }
+  </script>
+</body>
+</html>
