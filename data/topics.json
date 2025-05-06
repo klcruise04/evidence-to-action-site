@@ -1,0 +1,44 @@
+[
+  {
+    "topic": "Expanding Access",
+    "slug": "access",
+    "summary": "Research shows expanding access to Medicaid improves utilization, reduces financial burden, and stabilizes hospital finances."
+  },
+
+{
+  "topic": "Quality of Care",
+  "slug": "quality",
+  "summary": "Payment programs that tie reimbursement to provider quality or outcomes are widely implemented, but the evidence on their impact is mixed — showing modest gains in process metrics and limited improvements in health outcomes."
+},
+{
+  "topic": "Hospital Readmissions",
+  "slug": "readmissions",
+  "summary": "While federal policy has driven broad improvements in readmissions, some high-touch interventions have underperformed in trials, revealing important gaps between scalable programs and targeted care."
+},
+{
+  "topic": "Mortality Rates",
+  "slug": "mortality",
+  "summary": "Research using ambulance dispatch boundaries shows that more intensive early hospital treatment can reduce mortality. These findings challenge assumptions about spending and have shaped emerging models like Hospital at Home."
+},
+{
+  "topic": "Healthcare Costs",
+  "slug": "costs",
+  "summary": "Research shows that transparent pricing and reference pricing programs can significantly lower healthcare costs for shoppable services without reducing quality, but widespread adoption remains limited."
+},
+{
+  "topic": "Fragmented Care and Care Integration",
+  "slug": "fragment",
+  "summary": "ACOs aim to improve care quality and lower healthcare costs through coordinated provider networks. Evidence shows modest savings and slight quality gains, making ACOs a promising but incomplete solution to high healthcare spending."
+},
+{
+  "topic": "Overprescribing and Medication Safety",
+  "slug": "overprescribing",
+  "summary": "Behavioral nudges and peer comparisons have been shown to improve prescribing behavior among healthcare providers, reducing unnecessary or risky medication use."
+},
+{
+  "topic": "Chronic Care",
+  "slug": "chronic",
+  "summary": "AI and telehealth tools help chronic care patients manage their condition(s), often reducing the need to make in-person appointments with their physician."
+}
+
+]

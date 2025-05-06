@@ -1,0 +1,109 @@
+{
+    "topic": "Hospital Readmissions",
+    "slug": "readmissions",
+    "summary": "Efforts to reduce hospital readmissions have combined policy incentives and transitional care strategies. While broad interventions like HRRP have improved outcomes modestly, more intensive approaches like Camden Coalition’s care management model have yielded mixed or null results, revealing a selective gap between evidence and implementation. New innovations in AI have showed promising results.",
+    "articles": [
+      {
+        "title": "Evaluation of the Camden Coalition’s Care Management Intervention",
+        "causal": true,
+        "summary": "A randomized controlled trial found that the Camden Coalition’s intensive care management program did not reduce 180-day readmission rates among high-utilizer patients, contradicting earlier hopes based on observational results.",
+        "authors": "Finkelstein et al.",
+        "journal": "NEJM (2020)",
+        "link": "https://www.ajmc.com/view/study-dissects-camden-coalition-results-to-pinpoint-disconnect-between-care-coordination-and-reduced-readmissions",
+        "tags": ["readmissions", "transitional_care", "care_coordination", "policy"],
+        "implemented": true,
+        "implementation_examples": [
+          {
+            "title": "Camden Care Coalition replication programs redesigned after RCT null result",
+            "link": "https://www.ajmc.com/view/study-dissects-camden-coalition-results-to-pinpoint-disconnect-between-care-coordination-and-reduced-readmissions"
+          }
+        ]
+      },
+      {
+        "title": "Medicare’s Hospital Readmissions Reduction Program (HRRP) Evaluation",
+        "solutions": ["Medicare's HRRP"],
+        "causal": true,
+        "summary": "Multiple studies show that Medicare's HRRP led to moderate declines in 30-day readmissions, particularly for conditions like heart failure and pneumonia, by encouraging improvements in transitional care practices.",
+        "authors": "Zuckerman et al., MedPAC, CMS",
+        "journal": "Health Affairs, NEJM, PMC",
+        "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10771912/",
+        "tags": ["readmissions", "payment_model", "policy", "transitional_care"],
+        "implemented": true,
+        "implementation_examples": [
+          {
+            "title": "HRRP implemented across all U.S. hospitals with measurable decline in readmission rates",
+            "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10771912/"
+          }
+        ]
+      },
+      {
+        "title": "Medically Tailored Meals for People with HIV: A Randomized Controlled Trial",
+        "solutions": ["Food is Medicine"],
+        "causal": true,
+        "summary": "A randomized trial found that nutritionally vulnerable people with HIV who received medically tailored meals had an 89% reduction in hospitalizations over 6 months compared to controls.",
+        "authors": "Health Affairs study team",
+        "journal": "Health Affairs (2023)",
+        "link": "https://www.healthaffairs.org/doi/10.1377/hlthaff.2024.01307",
+        "tags": ["social_determinants", "nutrition", "healthcare_costs", "food_is_medicine"],
+        "implemented": true,
+        "implementation_examples": [
+          {
+            "title": "Fresh Food Farmacy by Geisinger Health",
+            "link": "https://bettercareplaybook.org/_blog/2024/25/medically-tailored-meals-evidence-roundup"
+          },
+          {
+            "title": "California CalAIM Medicaid Waiver for MTMs",
+            "link": "https://bettercareplaybook.org/_blog/2024/25/medically-tailored-meals-evidence-roundup"
+          },
+          {
+            "title": "Boston Medical Center’s Food for Health Program",
+            "link": "https://bettercareplaybook.org/_blog/2024/25/medically-tailored-meals-evidence-roundup"
+          }
+        ]
+      },
+      {
+        "title": "Impact of Medically Tailored Meals on Healthcare Utilization and Costs",
+        "solutions": ["Food is Medicine"],
+        "causal": true,
+        "summary": "Observational studies found that MTM recipients at Massachusetts General Hospital had 49% fewer hospital admissions and 16% lower healthcare costs over a 10-week period compared to non-recipients.",
+        "authors": "Massachusetts General Hospital research team",
+        "journal": "Better Care Playbook (2024)",
+        "link": "https://bettercareplaybook.org/_blog/2024/25/medically-tailored-meals-evidence-roundup",
+        "tags": ["nutrition", "social_determinants", "healthcare_costs"],
+        "implemented": true,
+        "implementation_examples": [
+          {
+            "title": "Medicaid MTM Pilots in CA, NY, OR, WA",
+            "link": "https://bettercareplaybook.org/_blog/2024/25/medically-tailored-meals-evidence-roundup"
+          }
+        ]
+      },
+      {
+        "title": "Projected National Savings from Medically Tailored Meals",
+        "solutions": ["Food is Medicine"],
+        "causal": false,
+        "summary": "Simulation research estimates that scaling MTMs nationally for high-risk patients could prevent 1.6 million hospitalizations annually and save $13.6 to $32 billion in healthcare costs.",
+        "authors": "Medical Xpress reporting team",
+        "journal": "MedicalXpress (2025)",
+        "link": "https://medicalxpress.com/news/2025-04-medically-tailored-meal-yield-significant.html",
+        "tags": ["nutrition", "healthcare_costs", "policy"],
+        "implemented": false,
+        "implementation_examples": []
+      },
+      {
+        "title": "Implementation of Artificial Intelligence-Based Clinical Decision Support to Reduce Hospital Readmissions at a Regional Hospital",
+        "authors": "Santiago Romero-Brufau, Kirk D Wyatt, Patricia Boyum, Mindy Mickelson, Matthew Moore, Cheristi Cognetta-Rieke",
+        "journal": "Journal of Patient Safety (2020)",
+        "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7467834/",
+        "summary": "This study implemented an AI-based decision support tool in a regional hospital to reduce readmissions. The tool identified high-risk patients and recommended interventions. Compared to controls, the hospital saw a 25% relative reduction in readmissions during the 6-month intervention period.",
+        "tags": ["readmissions", "tech", "workflow", "hospital"],
+        "solutions": ["AI Decision Support"],
+        "causal": false,
+        "implemented": true
+        
+      }
+      
+    ]
+  }
+  
+  

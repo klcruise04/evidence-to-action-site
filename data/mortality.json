@@ -1,0 +1,109 @@
+{
+    "topic": "Reducing Mortality Rates",
+    "slug": "mortality",
+    "summary": "Recent economic research shows that hospitals delivering more intensive treatment — especially early in the care process — can significantly reduce mortality for emergency patients. This challenges assumptions that higher spending is always wasteful and highlights the need to align payment models with value, not just cost reduction.",
+    "articles": [
+      {
+        "title": "Measuring Returns to Hospital Care: Evidence from Ambulance Referral Patterns",
+       "solutions": ["Treatment Intensity"],
+        "causal": true,
+        "summary": "Using ambulance dispatch boundaries as an instrument, this study finds that hospitals with higher inpatient spending reduce 1-year mortality for emergency patients by 10%, suggesting early intensive treatment can be cost-effective.",
+        "authors": "Joseph J. Doyle Jr. et al.",
+        "journal": "Journal of Political Economy",
+        "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4351552/",
+        "tags": ["hospital", "spending", "mortality", "value_based_care", "mortality"],
+        "implemented": true,
+        "implementation_examples": [
+          {
+            "title": "Hospital at Home models introduced to extend intensive care without discharging to SNFs",
+            "link": "https://news.mit.edu/2017/hospitals-spend-more-emergency-care-yield-better-outcomes-0710"
+          },
+          {
+            "title": "Medicare discussions on aligning reimbursement with longer-term outcomes",
+            "link": "https://news.mit.edu/2017/hospitals-spend-more-emergency-care-yield-better-outcomes-0710"
+          }
+        ]
+      },
+      {
+        "title": "Uncovering Waste in US Healthcare: Evidence from Ambulance Referral Patterns",
+        "solutions": ["Treatment Intensity"],
+        "causal": true,
+        "summary": "This companion study to Doyle Jr. et al, 2015 uses the same ambulance-based randomization strategy and finds that high inpatient spending improves survival, while high outpatient spending (particularly SNF use) worsens it — highlighting post-acute SNF care as a key source of waste.",
+        "authors": "Joseph Doyle, John Graves, Jonathan Gruber",
+        "journal": "Journal of Health Economics",
+        "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5511036/",
+        "tags": ["hospital", "spending", "mortality", "post_acute_care"],
+        "implemented": true,
+        "implementation_examples": [
+          {
+            "title": "Use of SNF outcomes and referrals being reconsidered in hospital performance metrics",
+            "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5511036/"
+          }
+        ]
+      },
+      {
+        "title": "A Surgical Safety Checklist to Reduce Morbidity and Mortality in a Global Population",
+        "causal": true,
+        "summary": "This multinational RCT evaluated the WHO surgical safety checklist across eight hospitals and found it reduced in-hospital mortality from 1.5% to 0.8% and complications from 11.0% to 7.0% in patients undergoing noncardiac surgery.",
+        "authors": "Alex B. Haynes et al.",
+        "journal": "New England Journal of Medicine (2009)",
+        "link": "https://www.nejm.org/doi/full/10.1056/NEJMsa0810119",
+        "tags": ["workflow", "surgical_checklist", "hospital_behavior", "mortality"],
+        "solutions": ["Surgical Safety Checklists"],
+        "implemented": true,
+        "implementation_examples": [
+          {
+            "title": "Surgical safety checklist drops deaths and complications by more than one-third",
+            "link": "https://news.harvard.edu/gazette/story/2009/01/surgical-safety-checklist-drops-deaths-and-complications-by-more-than-one-third/#:~:text=The%20rate%20of%20major%20complications,with%20implementation%20of%20the%20checklist"
+          }
+        ]
+      },
+      {
+        "title": "Prospective, multi-site study of patient outcomes after implementation of the TREWS machine learning-based early warning system for sepsis",
+       "solutions": ["AI Early Warning Systems"],
+        "causal": true,
+        "summary": "A prospective cohort study of over 6,800 sepsis patients found that provider confirmation of the TREWS ML-based sepsis alert within 3 hours reduced in-hospital mortality by 18.7% and improved other outcomes like organ failure and length of stay.",
+        "authors": "Roy Adams et al.",
+        "journal": "Nature Medicine (2022)",
+        "link": "https://www.nature.com/articles/s41591-022-01894-0",
+        "tags": ["tech", "hospital", "policy"],
+        "implemented": true,
+        "implementation_examples": [
+          {
+            "title":"Bayesian Health's AI Helps Hospitals Reduce Sepsis Deaths By 18%",
+            "link": "https://www.linkedin.com/pulse/bayesian-healths-ai-helps-hospitals-reduce-sepsis-deaths-colangelo/"
+          }
+        ]
+      },
+      {
+        "title": "New York State's Cardiac Surgery Reporting System: Four Years Later",
+        "solutions": ["Public Reporting"],
+        "causal": false,
+        "summary": "An evaluation of New York’s Cardiac Surgery Reporting System showed that public reporting of risk-adjusted mortality led to large improvements in surgical outcomes between 1989 and 1992, particularly among hospitals and surgeons with initially high mortality rates.",
+        "authors": "E.L. Hannan, D. Kumar, M. Racz, A.L. Siu, M.R. Chassin",
+        "journal": "Annals of Thoracic Surgery (1994)",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/7979781/#:~:text=their%201989%20mortality,1989%2C%20but%20were%20not%20significantly",
+        "tags": ["reporting", "hospital_behavior", "policy"],
+        "implemented": true,
+        "implementation_examples": []
+      },
+      {
+        "title": "Discharge after Hip Fracture Surgery by Mobilisation Timing: Secondary Analysis of the UK National Hip Fracture Database",
+        "solutions": ["Early Mobilization"],
+        "causal": false,
+        "summary": "A study of over 135,000 patients found that early mobilisation (within 36 hours of hip surgery) doubled the adjusted odds of being discharged within 30 days, suggesting a strong association between timely mobilisation and improved recovery and mortality outcomes.",
+        "authors": "Katie J. Sheehan et al.",
+        "journal": "Age and Ageing (2021)",
+        "link": "https://academic.oup.com/ageing/article/50/2/415/5937552?login=true",
+        "tags": ["hospital_behavior", "workflow", "postoperative_care"],
+        "implemented": true,
+        "implementation_examples": [
+          {
+            "title": "Improved Outcomes Associated With an Early Mobilization Protocol Among Hip and Knee Replacement Patients",
+            "link": "https://journals.sagepub.com/doi/10.1177/2151459314560079"
+          }
+        ]
+      }      
+    ]
+  }
+  

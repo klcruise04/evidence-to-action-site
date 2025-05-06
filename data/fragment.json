@@ -1,0 +1,42 @@
+{
+    "topic": "Fragmented Care and Care Integration",
+    "slug": "fragment",
+    "summary": "Accountable Care Organizations (ACOs) have achieved modest healthcare savings and quality improvements through coordinated care models. Rigorous economic studies show small but positive impacts on cost and outcomes, especially in physician-led ACOs.",
+    "articles": [
+      {
+        "title": "Spending Reductions in the Medicare Shared Savings Program: Selection or Savings?",
+        "solutions": ["Affordable Care Organizations"],
+        "causal": true,
+        "summary": "Difference-in-differences studies show that Medicare Shared Savings Program ACOs achieved statistically significant per-patient savings over time, without evidence of risk selection, supporting the viability of ACO models.",
+        "authors": "McWilliams et al.",
+        "journal": "National Bureau of Economic Research (NBER)",
+        "link": "https://www.nber.org/system/files/working_papers/w26403/w26403.pdf",
+        "tags": ["payment_model", "care_integration", "policy"],
+        "implemented": true,
+        "implementation_examples": [
+          {
+            "title": "Montefiore Medical Center Reports Strong Success as a Pioneer ACO",
+            "link": "https://montefioreeinstein.org/body.cfm?id=1738&action=detail&ref=1112"
+          }
+        ]
+      },
+      {
+        "title": "Changes in Spending and Quality after ACO Contract Participation for Dually Eligible Beneficiaries with Mental Illness",
+        "solutions": ["Affordable Care Organizations"],
+        "causal": true,
+        "summary": "ACO enrollment improved follow-up care and reduced ER visits among dually-eligible patients with mental illness, but did not significantly reduce overall hospitalizations or costs, highlighting selective gains in care coordination.",
+        "authors": "Lied et al.",
+        "journal": "Journal of General Internal Medicine (via PMC)",
+        "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9898178/",
+        "tags": ["care_integration", "mental_health", "policy"],
+        "implemented": true,
+        "implementation_examples": [
+          {
+            "title": "Montefiore Medical Center Reports Strong Success as a Pioneer ACO",
+            "link": "https://montefioreeinstein.org/body.cfm?id=1738&action=detail&ref=1112"
+          }
+        ]
+      }
+    ]
+  }
+  

@@ -1,0 +1,24 @@
+{
+  "topic": "Financial Barriers to Care",
+  "slug": "barriers",
+  "summary": "Rigorous economic research shows that high-deductible health plans reduce total spending—but primarily by reducing both necessary and unnecessary care, without improving patient price shopping. Despite this, HDHPs have been widely adopted across the U.S., highlighting a disconnect between design and outcomes.",
+  "solutions": [
+    "Value-Based Insurance Design (VBID) to lower cost-sharing for essential services.",
+    "Patient education to improve understanding of covered preventive care.",
+    "Price transparency tools to encourage better consumer decision-making.",
+    "Employer plan design changes to exempt chronic disease management from deductibles."
+  ],
+  "articles": [
+    {
+      "title": "What Does a Deductible Do?: The Impact of Cost-Sharing on Health Care Prices, Quantities, and Spending Dynamics",
+      "causal": true,
+      "summary": "A major employer's shift to a high-deductible plan cut spending by 13%, but patients reduced both high- and low-value care and showed no evidence of learning to price shop even after two years.",
+      "authors": "Zarek Brot-Goldberg, Amitabh Chandra, Benjamin Handel, Jonathan Kolstad",
+      "journal": "Quarterly Journal of Economics (2017)",
+      "link": "https://academic.oup.com/qje/article-abstract/132/3/1261/3769421?redirectedFrom=fulltext&login=false",
+      "tags": ["insurance_design", "cost_sharing", "patient_behavior", "policy"],
+      "implemented": true,
+      "implementation_examples": []
+    }
+  ]
+}
