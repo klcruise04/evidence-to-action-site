@@ -1,0 +1,54 @@
+{
+    "topic": "Quality of Care",
+    "slug": "quality",
+    "summary": "Payment programs that tie reimbursement to provider quality or outcomes are widely implemented, but the evidence on their impact is mixed — showing modest gains in process metrics and limited improvements in health outcomes.",
+    "articles": [
+      {
+        "title": "Pay for Performance in Healthcare: A Systematic Review of the Literature",
+        "solutions": ["Pay for Performance"],
+        "causal": false,
+        "summary": "A 2017 systematic review found that P4P can improve process measures modestly, particularly in outpatient settings, but has no consistent effect on patient health outcomes.",
+        "authors": "Eijkenaar et al.",
+        "journal": "Annals of Internal Medicine",
+        "link": "https://www.iesc.ufrj.br/gpdes/images/2019/P4PRevis%C3%A3oSistem%C3%A1tica.pdf",
+        "tags": ["payment_model", "policy", "physician"],
+        "implemented": true,
+        "implementation_examples": [
+          {
+            "title": "Medicare's Hospital Readmissions Reduction Program reduced fall‐related health care use",
+            "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10771912/"
+          },
+          {
+            "title": "Who Pays in Pay-for-Performance? Evidence from Hospital Prices",
+            "link": "https://www.journals.uchicago.edu/doi/10.1086/723280"
+          },
+          {
+            "title": "Social Risk Adjustment in the Hospital Readmissions Reduction Program",
+            "link": "https://www.healthaffairs.org/doi/abs/10.1377/hlthaff.2022.00614"
+          }
+        ]
+      },
+      {
+        "title": "The Effects of Pay-for-Performance Programs on Health, Health Care Use, and Processes of Care: A Systematic Review",
+        "solutions": ["Pay for Performance"],
+        "causal": false,
+        "summary": "This systematic review of 69 studies finds low-strength evidence that P4P programs may improve process-of-care outcomes, particularly in ambulatory settings with poor baseline performance. However, it shows no consistent effect on intermediate or patient health outcomes.",
+        "authors": "Mendelson et al.",
+        "journal": "Annals of Internal Medicine (2017)",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/28114600/",
+        "tags": ["payment_model", "policy", "physician"],
+        "implemented": true,
+        "implementation_examples": [
+          {
+            "title": "Medicare's Hospital Readmissions Reduction Program reduced fall‐related health care use",
+            "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10771912/"
+          },
+          {
+            "title": "Social Risk Adjustment in the Hospital Readmissions Reduction Program",
+            "link": "https://www.healthaffairs.org/doi/abs/10.1377/hlthaff.2022.00614"
+          }
+        ]
+      }
+    ]
+  }
+  

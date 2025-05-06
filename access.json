@@ -1,0 +1,75 @@
+{
+    "topic": "Expanding Access",
+    "slug": "access",
+    "summary": "Research shows expanding access to Medicaid improves utilization, reduces financial burden, and stabilizes hospital finances.",
+    "articles": [
+      {
+        "title": "The Oregon Health Insurance Experiment",
+        "solutions": ["States Expand Medicaid"],
+        "causal": true,
+        "summary": "RCT results show Medicaid increases preventive care, improves financial well-being, and enhances mental and physical health.",
+        "authors": "Finkelstein et al.",
+        "journal": "American Economic Journal: Applied Economics",
+        "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3535298/",
+        "tags": ["policy", "patient", "insurance_design"],
+        "implemented": true,
+        "implementation_examples": [
+          {
+            "title": "Medicaid expansion states cut uncompensated care costs for hospitals",
+            "link": "https://www.fiercehealthcare.com/finance/medicaid-expansion-states-cut-uncompensated-care-costs-for-hospitals"
+          }
+        ]
+      },
+        {
+          "title": "Nurse Practitioner Independence, Health Care Utilization, and Health Outcomes",
+          "solutions": ["Expand NP Practice Authority"],
+          "causal": true,
+          "summary": "Granting nurse practitioners full practice authority increased access to preventive care, improved management of chronic diseases, and reduced avoidable ER visits without compromising care quality.",
+          "authors": "Kleiner et al.",
+          "journal": "Journal of Health Economics (2018)",
+          "link": "https://pubmed.ncbi.nlm.nih.gov/29475093/",
+          "tags": ["nurse_practitioner", "scope_of_practice", "workflow", "access"],
+          "implemented": true,
+          "implementation_examples": [
+            {
+              "title": "VA grants full practice authority to nurse practitioners",
+              "link": "https://www.aha.org/news/headline/2016-12-13-va-grants-full-practice-authority-certain-advanced-practice-nurses"
+            }
+          ]
+        },
+        {
+          "title": "The Effect of Nurse Practitioner Scope of Practice Laws on Primary Care and Costs",
+          "solutions": ["Expand NP Practice Authority"],
+          "causal": true,
+          "summary": "Relaxing scope of practice laws for nurse practitioners increased access to primary care services and lowered healthcare spending without harming patient outcomes, based on state law variation.",
+          "authors": "Ying Xue, Joyce Pulcini, Edward Alan Miller",
+          "journal": "Health Economics (2018)",
+          "link": "https://onlinelibrary.wiley.com/doi/abs/10.1002/hec.4438",
+          "tags": ["nurse_practitioner", "scope_of_practice", "workflow", "access"],
+          "implemented": true,
+          "implementation_examples": [
+            {
+              "title": "VA grants full practice authority to nurse practitioners",
+              "link": "https://www.aha.org/news/headline/2016-12-13-va-grants-full-practice-authority-certain-advanced-practice-nurses"
+            }
+          ]
+        },
+        {
+          "title": "Scope of Practice and Opioid Prescribing Behavior of Nurse Practitioners",
+          "solutions": ["Expand NP Practice Authority"],
+          "causal": true,
+          "summary": "Using policy variation from NP moves across states, this study finds that expanding NP scope of practice did not compromise safety or increase inappropriate opioid prescribing among Medicare patients.",
+          "authors": "Shishir Shakya, Alicia Plemmons",
+          "journal": "Health Economics (2024)",
+          "link": "https://onlinelibrary.wiley.com/doi/10.1002/hec.4904",
+          "tags": ["nurse_practitioner", "scope_of_practice", "workflow", "access", "opioids"],
+          "implemented": true,
+          "implementation_examples": [
+            {
+              "title": "VA grants full practice authority to nurse practitioners",
+              "link": "https://www.aha.org/news/headline/2016-12-13-va-grants-full-practice-authority-certain-advanced-practice-nurses"
+            }
+          ]
+        }
+      ]
+    }

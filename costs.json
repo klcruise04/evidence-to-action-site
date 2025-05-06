@@ -1,0 +1,71 @@
+{
+    "topic": "Healthcare Costs",
+    "slug": "costs",
+    "summary": "Research shows that transparent pricing and reference pricing programs can significantly lower healthcare costs for shoppable services without reducing quality, but widespread adoption remains limited.",
+    "articles": [
+      {
+        "title": "Increases in Consumer Cost Sharing Redirect Patient Volumes and Reduce Hospital Prices for Orthopedic Surgery",
+        "solutions": ["Increase Consumer Cost Sharing"],
+        "causal": true,
+        "summary": "CalPERS' reference pricing program for orthopedic surgeries steered patients toward lower-cost hospitals, saved $3.1 million, and caused price reductions at high-cost hospitals without reducing service utilization.",
+        "authors": "Robinson and Brown",
+        "journal": "Health Affairs (2013)",
+        "link": "https://bcht.berkeley.edu/sites/default/files/reference-pricing-impact.pdf",
+        "tags": ["pricing", "insurance", "policy", "patient"],
+        "implemented": true,
+        "implementation_examples": [
+          {
+            "title": "CalPERS Expands Reference Pricing to Cataract Surgeries and Other Procedures",
+            "link": "https://bcht.berkeley.edu/sites/default/files/reference-pricing-impact.pdf"
+          }
+        ]
+      },
+      {
+        "title": "Estimating the Potential Health Care Savings of Reference Pricing",
+        "solutions": ["Implement Reference Pricing"],
+        "causal": false,
+        "summary": "Analysis shows that Safeway’s reference pricing model for lab tests reduced lab test costs by ~32% over three years without compromising access to services, offering a model for employer-driven cost reduction.",
+        "authors": "American Academy of Actuaries",
+        "journal": "American Academy of Actuaries Report (2018)",
+        "link": "https://www.actuary.org/sites/default/files/files/publications/ReferencePricing_11.2018.pdf",
+        "tags": ["pricing", "insurance", "policy"],
+        "implemented": true,
+        "implementation_examples": [
+          {
+            "title": "Safeway's Implementation of Reference Pricing for Laboratory Tests",
+            "link": "https://www.actuary.org/sites/default/files/files/publications/ReferencePricing_11.2018.pdf"
+          }
+        ]
+      },
+      {
+        "title": "What Does a Deductible Do?: The Impact of Cost-Sharing on Health Care Prices, Quantities, and Spending Dynamics",
+        "solutions": ["High Deductibles Have Mixed Impacts"],
+        "causal": true,
+        "summary": "A major employer's shift to a high-deductible plan cut spending by 13%, but patients reduced both high- and low-value care and showed no evidence of learning to price shop even after two years.",
+        "authors": "Zarek Brot-Goldberg, Amitabh Chandra, Benjamin Handel, Jonathan Kolstad",
+        "journal": "Quarterly Journal of Economics (2017)",
+        "link": "https://academic.oup.com/qje/article-abstract/132/3/1261/3769421?redirectedFrom=fulltext&login=false",
+        "tags": ["insurance_design", "cost_sharing", "patient_behavior", "policy"],
+        "implemented": true,
+        "implementation_examples": []
+      },
+      {
+        "title": "Impact of Providing Fee Data on Laboratory Test Ordering: A Controlled Clinical Trial",
+        "solutions": ["Cost Transparency", "Nudging"],
+        "causal": true,
+        "summary": "Displaying Medicare test fees to physicians at order entry led to a modest but statistically significant reduction in lab test ordering (8.6% fewer per patient-day), saving $400,000 over 6 months.",
+        "authors": "Feldman et al.",
+        "journal": "JAMA Internal Medicine (2013)",
+        "link": "https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/1678807",
+        "tags": ["cost_transparency", "patient_behavior", "hospital", "policy"],
+        "implemented": true,
+        "implementation_examples": [
+          {
+            "title": "Lab Fee Display Nudges Cut Overuse at Johns Hopkins",
+            "link": "https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/1678807"
+          }
+        ]
+      }
+    ]
+  }
+  
